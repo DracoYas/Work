@@ -1,0 +1,28 @@
+{
+  "name": "car-racing-game",
+  "version": "1.0.0",
+  "description": "A thrilling car racing video game.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "racing",
+    "game",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.5.4",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/webpack-env": "^1.16.0"
+  }
+}

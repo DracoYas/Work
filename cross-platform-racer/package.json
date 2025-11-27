@@ -1,0 +1,26 @@
+{
+  "name": "cross-platform-racer",
+  "version": "1.0.0",
+  "description": "A cross-platform car racing video game supporting keyboard, mouse, and gamepad controls.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.6.14",
+    "vite-plugin-typescript2": "^0.30.0"
+  },
+  "keywords": [
+    "racing",
+    "game",
+    "cross-platform"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
